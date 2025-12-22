@@ -1,0 +1,10 @@
+12:32:57 **** Incremental Build of configuration Debug for project ADDITION OF 2 NUMBERS .C ****
+make -j4 all 
+arm-none-eabi-size  ADDITION\ OF\ 2\ NUMBERS\ .C.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5012	     92	   1900	   7004	   1b5c	ADDITION OF 2 NUMBERS .C.elf
+Finished building: default.size.stdout
+ 
+
+12:32:57 Build Finished. 0 errors, 0 warnings. (took 229ms)
+
