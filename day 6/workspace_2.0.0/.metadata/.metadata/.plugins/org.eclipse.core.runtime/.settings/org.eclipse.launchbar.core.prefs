@@ -1,9 +1,0 @@
-LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
-LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
-LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
-configDescList=org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:ADDITION OF 2 NUMBERS .C Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:helloword.c Debug
-eclipse.preferences.version=1
-org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:ADDITION\ OF\ 2\ NUMBERS\ .C\ Debug/activeLaunchMode=run
-org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:ADDITION\ OF\ 2\ NUMBERS\ .C\ Debug/activeLaunchTarget=null\:---
-org.eclipse.launchbar.core.descriptorType.default\:helloword.c\ Debug/activeLaunchMode=debug
-org.eclipse.launchbar.core.descriptorType.default\:helloword.c\ Debug/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local

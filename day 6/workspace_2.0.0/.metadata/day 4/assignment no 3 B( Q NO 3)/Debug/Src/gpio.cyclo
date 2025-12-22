@@ -1,5 +1,0 @@
-../Src/gpio.c:9:6:GPIO_Init	1
-../Src/gpio.c:26:9:GPIO_ReadSwitch	1
-../Src/gpio.c:31:6:LED_GreenOn	1
-../Src/gpio.c:37:6:LED_BlueOn	1
-../Src/gpio.c:43:6:LED_AllOff	1
