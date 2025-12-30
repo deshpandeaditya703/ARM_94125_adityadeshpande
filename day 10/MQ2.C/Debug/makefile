@@ -60,8 +60,8 @@ all: main-build
 main-build: mq2.c.elf secondary-outputs
 
 # Tool invocations
-mq2.c.elf mq2.c.map: $(OBJS) $(USER_OBJS) F:\stm32\mq2.c\STM32F407VGTX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "mq2.c.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"F:\stm32\mq2.c\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="mq2.c.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+mq2.c.elf mq2.c.map: $(OBJS) $(USER_OBJS) C:\Users\Admin\OneDrive\Desktop\2\ nd\ reposetry\repo01\day\ 10\MQ2.C\STM32F407VGTX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "mq2.c.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\Admin\OneDrive\Desktop\2 nd reposetry\repo01\day 10\MQ2.C\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="mq2.c.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
