@@ -60,8 +60,8 @@ all: main-build
 main-build: smart_env_mon.c.elf secondary-outputs
 
 # Tool invocations
-smart_env_mon.c.elf smart_env_mon.c.map: $(OBJS) $(USER_OBJS) C:\Users\Admin\OneDrive\Desktop\2\ nd\ reposetry\repo01\smart_env_mon.c\STM32F407VGTX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "smart_env_mon.c.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\Admin\OneDrive\Desktop\2 nd reposetry\repo01\smart_env_mon.c\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="smart_env_mon.c.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -u _scanf_float -Wl,--start-group -lc -lm -Wl,--end-group
+smart_env_mon.c.elf smart_env_mon.c.map: $(OBJS) $(USER_OBJS) C:\Users\Admin\OneDrive\Desktop\2\ nd\ reposetry\repo01\SMART_ENVIRNOMENT_PROJECT.C\STM32F407VGTX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "smart_env_mon.c.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\Admin\OneDrive\Desktop\2 nd reposetry\repo01\SMART_ENVIRNOMENT_PROJECT.C\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="smart_env_mon.c.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -u _scanf_float -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
